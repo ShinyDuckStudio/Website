@@ -4,5 +4,5 @@
 Repo du super mega site internet
 
 
-[Cliquer ici](https://shinyduckstudio.com/)
+[Cliquer ici](https://shinyduckstudio.fr/)
 
