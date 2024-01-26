@@ -13,10 +13,22 @@
         }
 
         header {
-            background-color: #723495;
+            background-color: #6a1b9a;
             color: white;
             padding: 10px;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin-right: 20px;
+        }
+
+        .logo {
+            max-width: 100px;
+            height: auto;
         }
 
         section {
@@ -28,13 +40,35 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .member {
+        .member-box {
+            display: flex;
+            align-items: center;
             margin-bottom: 20px;
+            background-color: #A54BD9; /* Darker purple color */
+            border-radius: 10px;
+            padding: 15px;
         }
 
-        .member img {
-            max-width: 10%;
-            /* border-radius: 100%; */
+        .member-box img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .member-info {
+            flex-grow: 1;
+        }
+
+        .member-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #fff; /* White text color */
+        }
+
+        .member-description {
+            color: #ddd; /* Lighter text color */
         }
     </style>
 </head>
@@ -42,48 +76,68 @@
 
     <header>
         <h1>ShinyDuck Studio</h1>
+        <img class="logo" src="img/ShinyDuckStudio.png" alt="Company Logo">
     </header>
 
     <section>
-        <h2>Nos objectifs</h2>
-        <p>
-            meow meow meow meow (meow)
-        </p>
-    </section>
-
-    <section>
-        <h2>Notre équipe</h2>
-
-        <div class="member">
-            <img src="img/ShinyDuckStudio.png" alt="Member 1">
-            <h3>Amandine DOS SANTOS</h3>
-            <p>Pôle Communication</p>
+        <div class="member-box">
+            <img src="img/ShinyDuckStudio.png" alt="dodie">
+            <div class="member-info">
+                <div class="member-title">Dodie BONIS</div>
+                <div class="member-description">
+                    Dodie
+                </div>
+            </div>
         </div>
 
-        <div class="member">
-            <img src="img/ShinyDuckStudio.png" alt="Member 2">
-            <h3>Dodie BONIS</h3>
-            <p>Pôle Game Design</p>
+        <div class="member-box">
+            <img src="img/ShinyDuckStudio.png" alt="amandine">
+            <div class="member-info">
+                <div class="member-title">amandine</div>
+                <div class="member-description">
+                    amandine
+                </div>
+            </div>
         </div>
 
-        <div class="member">
-            <img src="img/ShinyDuckStudio.png" alt="Member 3">
-            <h3>Jules-Arthus KLEIN</h3>
-            <p>Pôle Réseau</p>
+        <div class="member-box">
+            <img src="img/ShinyDuckStudio.png" alt="JA">
+            <div class="member-info">
+                <div class="member-title">ja</div>
+                <div class="member-description">
+                    ja
+                </div>
+            </div>
         </div>
 
-        <div class="member">
-            <img src="img/ShinyDuckStudio.png" alt="Member 4">
-            <h3>Lucie ROMAY</h3>
-            <p>Pôle Graphisme</p>
+        <div class="member-box">
+            <img src="img/ShinyDuckStudio.png" alt="Lucie">
+            <div class="member-info">
+                <div class="member-title">lucie</div>
+                <div class="member-description">
+                    test <br>
+                    test<br>
+                    test<br>
+                    test<br>
+                    test<br>
+                    test<br>
+                    test<br>
+                    test<br>
+                    test<br>
+                    test
+                </div>
+            </div>
         </div>
 
-        <div class="member">
-            <img src="img/ShinyDuckStudio.png" alt="Member 5">
-            <h3>Thomas SOLER</h3>
-            <p>Pôle Développement</p>
+        <div class="member-box">
+            <img src="img/ShinyDuckStudio.png" alt="Thomas">
+            <div class="member-info">
+                <div class="member-title">thomas</div>
+                <div class="member-description">
+                    thomas
+                </div>
+            </div>
         </div>
-
     </section>
 
 </body>
