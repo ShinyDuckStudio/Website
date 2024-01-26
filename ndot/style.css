@@ -36,27 +36,42 @@ div a:hover {
 
 
 hr {
-	color:white;
+	color:#EEECF2;
+}
+
+
+.souligne{
+	
+}
+
+.sous-titre {
+	color: #EEECF2; 
+	background: black;
+	opacity:0.8; 
+	padding: 10px 10px; 
+	font-size: 60px;  
+	text-align: center; 
 }
 
 
 .li1 {
-	color: white;
+	color: #EEECF2;
 }
 
 
 .h1class1 {
 	background: black;
 	opacity:0.8; 
-	color: white; 
-	padding: 40px 10px; 
+	color: #EEECF2; 
+	padding: 10px 10px; 
 	font-size: 60px;  
-	font-family: Arial Narrow, sans-serif; 
+	text-align: center; 
+	/*font-family: Arial Narrow, sans-serif; */
 }
 
 
 .h1class2 {
-	color: white; 
+	color: #EEECF2; 
 	font-size: 40px; 
 }
 
