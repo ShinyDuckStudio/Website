@@ -48,9 +48,9 @@ hr {
 	color: #EEECF2; 
 	background: black;
 	opacity:0.8; 
-	padding: 10px 10px; 
-	font-size: 60px;  
+	padding: 0px 0px; 
 	text-align: center; 
+	font-size: 20px;  
 }
 
 
@@ -63,7 +63,7 @@ hr {
 	background: black;
 	opacity:0.8; 
 	color: #EEECF2; 
-	padding: 10px 10px; 
+	padding: 20px 10px; 
 	font-size: 60px;  
 	text-align: center; 
 	/*font-family: Arial Narrow, sans-serif; */
