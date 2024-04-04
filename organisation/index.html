@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>New Dog, Old Tricks</title>
-        <meta charset=""utf-8>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="indorga.css">
     </head>
 
@@ -89,7 +89,17 @@
 
         <script>
 
-            /* RIGHT */
+            const screenWidth = window.innerWidth;
+            const screenHeight = window.innerHeight;
+            const percentageOfScreen2 = 45;
+            const percentageOfScreen1 = 145;
+
+            // Calculate the x position based on the percentage of the screen size
+            const xPosition1 = (percentageOfScreen1 / 100) * screenWidth;
+            const xPosition2 = (percentageOfScreen2 / 100) * screenWidth;
+
+
+            /* RIGHT */ 
             let tr1 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.r1', 
@@ -102,7 +112,7 @@
             })
 
             tr1.to('.r1', {
-                x:700
+                x:xPosition2
             })
             let tr2 = gsap.timeline({
                 scrollTrigger: {
@@ -116,7 +126,7 @@
             })
 
             tr2.to('.r2', {
-                x:700
+                x:xPosition2
             })
 
             let tr3 = gsap.timeline({
@@ -131,7 +141,7 @@
             })
 
             tr3.to('.r3', {
-                x:700
+                x:xPosition2
             })
 
             let tr4 = gsap.timeline({
@@ -146,7 +156,7 @@
             })
 
             tr4.to('.r4', {
-                x:700
+                x:xPosition2
             })
 
 
@@ -163,7 +173,7 @@
             })
 
             tl1.to('.l1', {
-                x:600
+                x:xPosition1
             })
 
             let tl2 = gsap.timeline({
@@ -178,7 +188,7 @@
             })
 
             tl2.to('.l2', {
-                x:600
+                x:xPosition1
             })
 
             let tl3 = gsap.timeline({
@@ -193,7 +203,7 @@
             })
 
             tl3.to('.l3', {
-                x:600
+                x:xPosition1
             })
 
             let tl4 = gsap.timeline({
@@ -208,7 +218,7 @@
             })
 
             tl4.to('.l4', {
-                x:600
+                x:xPosition1
             })
 
             const lenis = new Lenis()
