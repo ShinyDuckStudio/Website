@@ -1,26 +1,231 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
     <head>
         <title>New Dog, Old Tricks</title>
         <meta charset=""utf-8>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="indorga.css">
     </head>
 
     <body>
-        <section class="scrollport">
-            <div>
-                <p class = "gras">Cahier des charges</p>
-                <p>Date de rendu : 27/10/23</p>
+        <nav>
+            <a href="../ndot/index.html">New Dog, Old tricks</a>
+              <ul class="list">
+                  <li><a href="../download/index.html">Projet</a></li>
+                <li><a href="#">Avancées</a></li>
+                <li><a href="../team/index.html">Notre équipe</a></li>
+                <li><a href="../download/index.html">Téléchargement</a></li>
+              </ul>
+              <button class="menu">Menu</button>
+        </nav>
+
+        <div class="spacer"></div>
+
+        <h1> Timeline</h1>
+        <p>
+            Ici vous retrouverez tous les points clés de l'avancée de notre jeu. Que ce soit des soutenances, 
+            techniques comme fonctionnelles, ou juste des points clés pour notre équipe, toutes les 
+            informations sont là ! 
+        </p>
+
+        <div class="timeline-line"></div>  
+        <div class="spacer1"></div> 
+        <div class="spacer">
+            <div class="r1">
+                <h2>Animate me</h2>
+                <p2>This is a simple card</p2>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </section>
+        </div>
+        <div class="spacer">
+            <div class="l1">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+
+        <div class="spacer">
+            <div class="r2">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="l2">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+
+        <div class="spacer">
+            <div class="r3">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+
+        <div class="spacer">
+            <div class="l3">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+
+        <div class="spacer">
+            <div class="r4">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="l4">
+                <h2>Animate me</h2>
+                <p2>This is a simple card but from the other side</p2>
+            </div>
+        </div>
+        <div class="spacer1"></div>
+             
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+
+        <script>
+
+            /* RIGHT */
+            let tr1 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.r1', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'play reverse play reverse'
+                }
+            })
+
+            tr1.to('.r1', {
+                x:700
+            })
+            let tr2 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.r2', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'play reverse play reverse'
+                }
+            })
+
+            tr2.to('.r2', {
+                x:700
+            })
+
+            let tr3 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.r3', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'play reverse play reverse'
+                }
+            })
+
+            tr3.to('.r3', {
+                x:700
+            })
+
+            let tr4 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.r4', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'play reverse play reverse'
+                }
+            })
+
+            tr4.to('.r4', {
+                x:700
+            })
+
+
+        /* LEFT */ 
+            let tl1 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.l1', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'reverse play reverse play'
+                }
+            })
+
+            tl1.to('.l1', {
+                x:600
+            })
+
+            let tl2 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.l2', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'reverse play reverse play'
+                }
+            })
+
+            tl2.to('.l2', {
+                x:600
+            })
+
+            let tl3 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.l3', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'reverse play reverse play'
+                }
+            })
+
+            tl3.to('.l3', {
+                x:600
+            })
+
+            let tl4 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.l4', 
+                    start: '-200% center', 
+                    end: '200% center',
+                    scrub: false, 
+                    markers: false,
+                    toggleActions: 'reverse play reverse play'
+                }
+            })
+
+            tl4.to('.l4', {
+                x:600
+            })
+
+            const lenis = new Lenis()
+
+            lenis.on('scroll', (e) => {
+            console.log(e)
+            })
+
+            function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+                }
+
+            requestAnimationFrame(raf)
+
+        </script>
     </body>
+
+</html>
+    
