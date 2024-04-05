@@ -89,14 +89,10 @@
 
         <script>
 
-            const screenWidth = window.innerWidth;
-            const screenHeight = window.innerHeight;
-            const percentageOfScreen2 = 45;
-            const percentageOfScreen1 = 145;
+            const screenWidth = screen.width;
 
-            // Calculate the x position based on the percentage of the screen size
-            const xPosition1 = (percentageOfScreen1 / 100) * screenWidth;
-            const xPosition2 = (percentageOfScreen2 / 100) * screenWidth;
+            const xPosition1 = (55 / 100) * screenWidth;
+            const xPosition2 = (60 / 100) * screenWidth;
 
 
             /* RIGHT */ 
@@ -112,7 +108,7 @@
             })
 
             tr1.to('.r1', {
-                x:xPosition2
+                x:xPosition1
             })
             let tr2 = gsap.timeline({
                 scrollTrigger: {
@@ -126,7 +122,7 @@
             })
 
             tr2.to('.r2', {
-                x:xPosition2
+                x:xPosition1
             })
 
             let tr3 = gsap.timeline({
@@ -141,7 +137,7 @@
             })
 
             tr3.to('.r3', {
-                x:xPosition2
+                x:xPosition1
             })
 
             let tr4 = gsap.timeline({
@@ -151,12 +147,12 @@
                     end: '200% center',
                     scrub: false, 
                     markers: false,
-                    toggleActions: 'play reverse play reverse'
+                    toggleActions: 'play reverse play reverse   '
                 }
             })
 
             tr4.to('.r4', {
-                x:xPosition2
+                x:xPosition1
             })
 
 
@@ -173,7 +169,7 @@
             })
 
             tl1.to('.l1', {
-                x:xPosition1
+                x:xPosition2
             })
 
             let tl2 = gsap.timeline({
@@ -188,13 +184,13 @@
             })
 
             tl2.to('.l2', {
-                x:xPosition1
+                x:xPosition2
             })
 
             let tl3 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.l3', 
-                    start: '-200% center', 
+                    start: '200% center', 
                     end: '200% center',
                     scrub: false, 
                     markers: false,
@@ -203,13 +199,13 @@
             })
 
             tl3.to('.l3', {
-                x:xPosition1
+                x:xPosition2
             })
 
             let tl4 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.l4', 
-                    start: '-200% center', 
+                    start: '200% center', 
                     end: '200% center',
                     scrub: false, 
                     markers: false,
@@ -218,7 +214,7 @@
             })
 
             tl4.to('.l4', {
-                x:xPosition1
+                x:xPosition2
             })
 
             const lenis = new Lenis()

@@ -147,8 +147,8 @@ p2{
   background-color: #9400df;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-  position: relative; 
-  left: -25%; 
+  position: absolute; 
+  left: -30%; 
 }
 .r2{
 width: 300px;
@@ -158,8 +158,8 @@ flex-direction: column;
 background-color: #9400df;
 border-radius: 8px; 
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-position: relative; 
-left: -25%; 
+position: absolute; 
+left: -30%; 
 }
 .r3{
   width: 300px;
@@ -170,7 +170,7 @@ left: -25%;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   position: relative; 
-  left: -25%; 
+  left: -30%; 
 }
 .r4{
   width: 300px;
@@ -181,7 +181,7 @@ left: -25%;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   position: relative; 
-  left: -25%; 
+  left: -30%; 
   }
   
 
@@ -194,8 +194,8 @@ left: -25%;
   background-color: #9400df;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-  position: relative; 
-  left: 55%; 
+  position: absolute; 
+  left: 53%; 
 }
 .l2{
   width: 300px;
@@ -205,8 +205,8 @@ left: -25%;
   background-color: #9400df;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-  position: relative; 
- left: 55%; 
+  position: absolute; 
+  left: 53%; 
 }
 .l3{
   width: 300px;
@@ -217,7 +217,7 @@ left: -25%;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   position: relative; 
-  left: 55%; 
+  left: 53%; 
 }
 .l4{
   width: 300px;
@@ -228,5 +228,5 @@ left: -25%;
   border-radius: 8px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   position: relative; 
-  left: 55%; 
+  left: 53%; 
 }
