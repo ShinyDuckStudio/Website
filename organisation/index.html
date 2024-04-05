@@ -90,8 +90,6 @@
         <script>
 
             const screenWidth = screen.width;
-
-            const xPosition1 = (55 / 100) * screenWidth;
             const xPosition2 = (60 / 100) * screenWidth;
 
 
@@ -99,60 +97,60 @@
             let tr1 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.r1', 
-                    start: '-200% center', 
-                    end: '200% center',
+                    start: '-250% center', 
+                    end: '250% center',
                     scrub: false, 
-                    markers: false,
-                    toggleActions: 'play reverse play reverse'
+                    markers: true,
+                    toggleActions: 'reverse play reverse play'
                 }
             })
 
             tr1.to('.r1', {
-                x:xPosition1
+                x:-1000
             })
             let tr2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.r2', 
-                    start: '-200% center', 
-                    end: '200% center',
+                    start: '-250% center', 
+                    end: '250% center',
                     scrub: false, 
-                    markers: false,
-                    toggleActions: 'play reverse play reverse'
+                    markers: true,
+                    toggleActions: 'reverse play reverse play'
                 }
             })
 
             tr2.to('.r2', {
-                x:xPosition1
+                x:-1000
             })
 
             let tr3 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.r3', 
-                    start: '-200% center', 
-                    end: '200% center',
+                    start: '-250% center', 
+                    end: '250% center',
                     scrub: false, 
                     markers: false,
-                    toggleActions: 'play reverse play reverse'
+                    toggleActions: 'reverse play reverse play'
                 }
             })
 
             tr3.to('.r3', {
-                x:xPosition1
+                x:-1000
             })
 
             let tr4 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.r4', 
-                    start: '-200% center', 
-                    end: '200% center',
+                    start: '-250% center', 
+                    end: '250% center',
                     scrub: false, 
                     markers: false,
-                    toggleActions: 'play reverse play reverse   '
+                    toggleActions: 'reverse play reverse play'
                 }
             })
 
             tr4.to('.r4', {
-                x:xPosition1
+                x:-1000
             })
 
 
@@ -160,8 +158,8 @@
             let tl1 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.l1', 
-                    start: '-200% center', 
-                    end: '200% center',
+                    start: '-250% center', 
+                    end: '250% center',
                     scrub: false, 
                     markers: false,
                     toggleActions: 'reverse play reverse play'
@@ -175,8 +173,8 @@
             let tl2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.l2', 
-                    start: '-200% center', 
-                    end: '200% center',
+                    start: '-250% center', 
+                    end: '250% center',
                     scrub: false, 
                     markers: false,
                     toggleActions: 'reverse play reverse play'
@@ -190,8 +188,8 @@
             let tl3 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.l3', 
-                    start: '200% center', 
-                    end: '200% center',
+                    start: '250% center', 
+                    end: '250% center',
                     scrub: false, 
                     markers: false,
                     toggleActions: 'reverse play reverse play'
@@ -205,8 +203,8 @@
             let tl4 = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.l4', 
-                    start: '200% center', 
-                    end: '200% center',
+                    start: '250% center', 
+                    end: '250% center',
                     scrub: false, 
                     markers: false,
                     toggleActions: 'reverse play reverse play'
