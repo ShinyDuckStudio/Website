@@ -108,7 +108,7 @@ h1{
 }
 
 .timeline-line {
-  position: absolute;
+  position: relative;
   width: 2px;
   height: 140%;
   background-color: #333;
