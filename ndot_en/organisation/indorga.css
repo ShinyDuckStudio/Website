@@ -184,6 +184,11 @@ p2{
 .rondelle img {
   width: 100%;
   z-index: 1;
+
+  @media (min-width: 1400px) {
+    width: 75%;
+    transform: translateX(15%);
+  }
 }
 
 .text-overlay {
