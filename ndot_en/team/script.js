@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
          image: "canard_amandine"},
         { name: "Jules-Arthus Klein", role: "Technical Manager",
          d1: "Became the CEO of Debug.Log(\"marche po\")",
-         d2: "Falls asleep during meetings", 
+         d2: "Had to go through a job interview to be on this website", 
          quote: "AutoPuller APP : \"Mon gars ya du neuf sur le serv ptetre c une erreur belek @JA\"",
          image: "canard_ja"},
         { name: "Lucie Romay", role: "Designs Manager",

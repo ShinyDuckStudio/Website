@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
          image : "canard_amandine"},
         { name: "Jules-Arthus Klein", role: "Respo' Technique",
          d1: "Est devenu le CEO du Debug.Log(\"marche po\")",
-         d2 : "S'endort pendant la réu", 
+         d2 : "A du faire un entretien d’embauche pour être sur ce site", 
          quote : "AutoPuller APP : \"Mon gars ya du neuf sur le serv ptetre c une erreur belek @JA\"",
          image : "canard_ja"},
         { name: "Lucie Romay", role: "Respo' Designs",
