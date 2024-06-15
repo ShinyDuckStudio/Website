@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+  body{
+    background-color: #eaffc0;   
+  }
   nav {
     position: fixed;
     top: 0;
