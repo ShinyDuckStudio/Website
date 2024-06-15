@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         memberDiv.classList.add("team-member");
         memberDiv.innerHTML = `
             <h2>${member.name}</h2>
-            <p><strong>Role:</strong> ${member.role}</p>
+            <p><strong>Rôle:</strong> ${member.role}</p>
             <p>${member.d1}</p>
             <p>${member.d2}</p>
             <p class = "it">"${member.quote}"</p>

@@ -1,7 +1,21 @@
 * {
     box-sizing: border-box;
   }
+  @font-face {
+    font-family: 'Bri'; 
+    src: url('../lexia_readable/LexieReadable-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Bri'; 
+  src: url('../lexia_readable/LexieReadable-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
   body{
+    color: #371c09 !important;
+    font-family: 'Bri', sans-serif;
     background-color: #eaffc0;   
   }
   nav {
@@ -89,7 +103,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Bri', sans-serif;
     margin: 0;
     padding: 0;
 }

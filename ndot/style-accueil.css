@@ -1,14 +1,27 @@
 * {
     box-sizing: border-box;
   }
-  body {
-    color : black;
+  @font-face {
+    font-family: 'Bri'; 
+    src: url('../lexia_readable/LexieReadable-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Bri'; 
+  src: url('../lexia_readable/LexieReadable-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  color: #205704;
     margin: 0;
     min-height: 200vh;
-    font-size: 20px;
-    font-family: bread;
-    background-color: #eaffc0;  
-  }
+    font-size: 17px;
+    font-family: 'Bri', sans-serif;
+    background-color: #eaffc0;
+}
+
   nav {
     position: fixed;
     top: 0;
@@ -112,17 +125,17 @@
 
 h1 {
   text-align : center; 
-  color : black; 
+  color: #371c09;
 }
 
 h2 {
   text-align : center; 
-  color : black; 
+  color: #371c09; 
 }
 
 p {
   padding: 1em 5em 1em;
-  color : black;
+  color: #371c09;
   text-align: center;
 }
 
