@@ -6,21 +6,21 @@
     src: url('../ndot/lexia_readable/LexieReadable-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-@font-face {
+  }
+  @font-face {
   font-family: 'Bri'; 
   src: url('../ndot/lexia_readable/LexieReadable-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-}
-body {
+  }
+  body {
     color: #371c09 !important;
     margin: 0;
     min-height: 200vh;
     font-size: 17px;
     font-family: 'Bri', sans-serif;
     background-color: #eaffc0;
-}
+  }
   nav {
     position: fixed;
     top: 0;
