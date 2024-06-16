@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
          d2 : "Sourd d'une oreille, s'occupe de la partie son",
          quote : "ShinyDuck Studio est une entreprise créée entre nous à parts égales",
          image : "canard_thomas"},
-        { name: "Dodie Bonis", role: "Respo' Ennemis", 
+        { name: "Dodie Bonis", role: "Respo' Énigmes", 
          d1: "A déversé tout son sadisme dans les puzzles de NDOT",
          d2 : "Baisse la moyenne d'âge de l'entreprise à elle seule", 
          quote : "Les gars, vous vous souvenez qu'il y a ça à implémenter encore ?",
