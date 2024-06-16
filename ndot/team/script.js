@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
          quote : "Les gars, j'ai fini le site",
          image : "canard_amandine"},
         { name: "Jules-Arthus Klein", role: "Respo' Technique",
-         d1: "Est devenu le CEO du Debug.Log(\"marche po\")",
+         d1: "**S'endort pendant la réunion**",
          d2 : "A du faire un entretien d’embauche pour être sur ce site", 
          quote : "AutoPuller APP : \"Mon gars ya du neuf sur le serv ptetre c une erreur belek @JA\"",
          image : "canard_ja"},
