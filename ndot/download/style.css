@@ -25,6 +25,7 @@
     -webkit-backdrop-filter: blur(8px) brightness(0.5);
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
     color: white;
+    z-index: 4;
     font-size: 14px;
     &.mask {
       top: 150px;
@@ -103,12 +104,13 @@ body {
 
 .spacer2{
     width: 75%;
-    padding: 2em; 
+    padding: 2em;
     display: flex; 
     flex-direction: column;
     background-color: #338b25; 
     position: absolute; 
     left: 12.5%; 
+    z-index: 2;
   }
 
 footer{
@@ -130,4 +132,10 @@ footer{
 
 .blbl:hover {
     background-color: #45a049;
+}
+
+.keys {
+  width: 15%;
+  height: auto;
+  align-self: center;
 }

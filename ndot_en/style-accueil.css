@@ -229,3 +229,12 @@ p {
 .italique {
   font-style : italic; 
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  max-width: 100%;
+}
