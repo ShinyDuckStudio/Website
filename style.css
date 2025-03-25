@@ -74,9 +74,7 @@ section {
 
 
 .member-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     text-align: center;
     width: 8%;
@@ -86,6 +84,7 @@ section {
     position: relative;
     top: 50px;
     margin-bottom: 20px;
+    min-height: 200px; /* TO FIX */
 }
 
 .member-box img {
@@ -102,10 +101,7 @@ section {
 .member-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between; 
     height: auto; 
-    gap: 50px;
 }
 
 .member-title {
@@ -115,13 +111,9 @@ section {
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
-    min-height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 60px;
 
-    align-self: flex-start; 
-    margin-top: -30px;
+    margin-top: -20%;
 }
 
 .member-description {
@@ -129,10 +121,12 @@ section {
     font-family: Prompt;
     font-style: normal;
     font-weight: 400;
-    min-height: 50px; 
+    min-height: 120px; 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    position:relative;
+    top:30px;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .member-funfact {
@@ -142,6 +136,6 @@ section {
     font-weight: 400;
     min-height: 50px; 
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    position:relative;
+    top: 10px;
+} 
