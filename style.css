@@ -14,6 +14,16 @@ header {
     align-items: center;
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 h1 {
     margin-left: 20px;
 }
@@ -26,14 +36,14 @@ h1 {
 
 .section-title {
     font-family: Prompt;
-    font-size:medium;
+    font-size: medium;
     font-weight: 700;
     font-size: 36px;
     color: #6a1b9a;
     text-align: center;
     margin-bottom: 10px;
     position: relative;
-    top: 20px; 
+    top: 20px;
     bottom: 10px;
 }
 
@@ -46,34 +56,72 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.team {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet de passer à la ligne si l'écran est trop petit */
+    justify-content: center;
+    /* Centre les boîtes horizontalement */
+    gap: 20px;
+}
+
+
 .member-box {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 8%;
     background-color: #A54BD9;
     border-radius: 10px;
-    padding: 15px;
+    padding: 4%;
+    position: relative;
+    top: 50px;
+    margin-bottom: 20px;
 }
 
 .member-box img {
-    max-width: 100px;
-    max-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+    transform: translate(-50%, -60%);
     border-radius: 10px;
-    margin-right: 20px;
 }
 
 .member-info {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    height: auto; 
+    gap: 50px;
 }
 
 .member-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 5px;
     color: #fff;
     font-family: Prompt;
     font-style: normal;
     font-weight: 600;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-self: flex-start; 
+    margin-top: -30px;
 }
 
 .member-description {
@@ -81,4 +129,19 @@ section {
     font-family: Prompt;
     font-style: normal;
     font-weight: 400;
+    min-height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-funfact {
+    color: #ddd;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 400;
+    min-height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
