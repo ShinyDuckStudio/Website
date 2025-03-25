@@ -9,19 +9,32 @@ header {
     background-color: #6a1b9a;
     color: white;
     padding: 10px;
-    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 h1 {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .logo {
     max-width: 100px;
     height: auto;
+    margin-right: 20px;
+}
+
+.section-title {
+    font-family: Prompt;
+    font-size:medium;
+    font-weight: 700;
+    font-size: 36px;
+    color: #6a1b9a;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: 20px; 
+    bottom: 10px;
 }
 
 section {
@@ -58,8 +71,14 @@ section {
     font-weight: bold;
     margin-bottom: 5px;
     color: #fff;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .member-description {
     color: #ddd;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 400;
 }
