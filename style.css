@@ -84,7 +84,7 @@ section {
     position: relative;
     top: 50px;
     margin-bottom: 20px;
-    min-height: 200px; /* TO FIX */
+    min-height: 10px; /* TO FIX */
 }
 
 .member-box img {
